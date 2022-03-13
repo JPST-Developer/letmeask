@@ -76,6 +76,22 @@ form button, form input {
   width: 100%;
 }
 
+.main-content p {  
+  font-size: 14px;
+  color: #737388;
+  margin-top: 16px;
+
+  a {
+    color: #e559f9;
+  }
+}
+
+.main-content h2{
+  font-size: 24px;
+  margin: 64px 0 24px;
+  font-family: "Poppins", sans-serif;
+}
+
 .create-room {
   margin-top: 64px;
   height: 50px;
