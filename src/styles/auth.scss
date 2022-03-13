@@ -56,3 +56,66 @@ main {
 main img {
   align-self: center;
 }
+form{
+  width: 100%;
+  max-width: 320px
+}
+form input {
+  height: 50px;
+  border-radius: 8px;
+  padding: 0 16px;
+  background: #fff;
+  border: 1px solid #a8a8b5;
+}
+
+form button {
+  margin-top: 16px;
+}
+
+form button, form input {
+  width: 100%;
+}
+
+.create-room {
+  margin-top: 64px;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: 500;
+  background-color: #ea4336;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border: 0;
+
+  transition: filter 0.2s;
+
+  img{
+    margin-right: 8px;
+  }
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.separator {
+  font-size: 14px;
+  color: #a8a8b3;
+
+  margin: 32px 0;
+  display: flex;
+  align-items: center;
+
+  &::before, &::after{
+    display: flex;
+    content: "";
+    border-top: 1px solid #a8a8b3;
+    width: 5rem;
+    margin: 0 1rem;
+  }
+}
+
